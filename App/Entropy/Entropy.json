@@ -1,0 +1,71 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "FooterContainer1": 11,
+    "HeaderContainer1": 9,
+    "Host": 3,
+    "Login Screen": 4,
+    "MainSectionContainer1": 10,
+    "Screen1": 7,
+    "Screen2": 5,
+    "Screen3": 6,
+    "ScreenContainer1": 8
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 16:26:34",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "groupContainer": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "FooterContainer1": {},
+    "HeaderContainer1": {},
+    "Host": {},
+    "Login Screen": {},
+    "MainSectionContainer1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Screen3": {},
+    "ScreenContainer1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "FooterContainer1": 3,
+    "HeaderContainer1": 1,
+    "Host": 0,
+    "Login Screen": 0,
+    "MainSectionContainer1": 2,
+    "Screen1": 0,
+    "Screen2": 0,
+    "Screen3": 0,
+    "ScreenContainer1": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0573284,
+    "ControlCount": {
+      "groupContainer": 4,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.4629675
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
