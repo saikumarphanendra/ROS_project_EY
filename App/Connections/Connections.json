@@ -1,1 +1,28 @@
-{}
+{
+  "254bd9bc-ca44-4d20-8071-3ec5099afe53": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ascend687.sharepoint.com/sites/sc1": {
+        "dataSources": {
+          "information": {
+            "tableName": "3d45c20d-670b-4f73-8326-e85cf33baa43"
+          },
+          "New orders": {
+            "tableName": "7165bb74-a4db-4604-965f-453c0aeac761"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "information",
+      "New orders"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "254bd9bc-ca44-4d20-8071-3ec5099afe53"
+  }
+}
