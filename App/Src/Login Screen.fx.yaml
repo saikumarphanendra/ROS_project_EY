@@ -24,7 +24,7 @@
         ZIndex: =4
 
     Button1 As button:
-        OnSelect: =Navigate(Screen2)
+        OnSelect: =Navigate('Restaurant Manager')
         Text: ="Navigate"
         X: =942
         Y: =310
