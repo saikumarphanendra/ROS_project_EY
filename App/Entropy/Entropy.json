@@ -8,6 +8,7 @@
     "HeaderContainer1": 11,
     "Host": 3,
     "Label1": 5,
+    "Label2": 14,
     "Login Screen": 4,
     "MainSectionContainer1": 12,
     "Screen1": 9,
@@ -17,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:56:54",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:59:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -30,9 +31,9 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "form": 1,
+    "form": 0,
     "groupContainer": 2,
-    "label": 0
+    "label": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -41,6 +42,7 @@
     "HeaderContainer1": {},
     "Host": {},
     "Label1": {},
+    "Label2": {},
     "Login Screen": {},
     "MainSectionContainer1": {},
     "Screen1": {},
@@ -52,30 +54,31 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "FooterContainer1": 3,
+    "FooterContainer1": 6,
     "Form1": 0,
-    "HeaderContainer1": 1,
+    "HeaderContainer1": 4,
     "Host": 0,
-    "Label1": 0,
+    "Label1": 2,
+    "Label2": 1,
     "Login Screen": 0,
-    "MainSectionContainer1": 2,
+    "MainSectionContainer1": 5,
     "Screen1": 0,
     "Screen2": 0,
     "Screen3": 0,
-    "ScreenContainer1": 0
+    "ScreenContainer1": 3
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0331885,
+    "AnalysisLoadTime": 0.0439265,
     "ControlCount": {
       "form": 1,
       "groupContainer": 4,
       "label": 1,
       "screen": 4
     },
-    "DeserializationLoadTime": 0.3255553
+    "DeserializationLoadTime": 0.6723166
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
