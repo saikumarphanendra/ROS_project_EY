@@ -24,7 +24,7 @@
         ZIndex: =4
 
     Button1 As button:
-        OnSelect: =Navigate(Screen2)
+        OnSelect: =Navigate('Restaurant Manager')
         Text: ="Navigate"
         X: =942
         Y: =310
@@ -43,4 +43,15 @@
         X: =321
         Y: =522
         ZIndex: =6
+
+    ButtonCanvas1 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =Navigate(Screen2)
+        Text: ="Navigate"
+        Width: =96
+        X: =114
+        Y: =455
+        ZIndex: =7
 
