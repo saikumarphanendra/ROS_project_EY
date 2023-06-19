@@ -1,9 +1,25 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "FooterContainer1": 13,
+    "Form1": 5,
+    "HeaderContainer1": 11,
+    "Host": 3,
+    "Image1": 7,
+    "Label1": 8,
+    "Label2": 6,
+    "Login Screen": 4,
+    "MainSectionContainer1": 12,
+    "Screen1": 9,
+    "Screen2": 14,
+    "Screen3": 15,
+    "ScreenContainer1": 10
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 18:05:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -15,12 +31,61 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "form": 0,
+    "groupContainer": 3,
+    "image": 2,
+    "label": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "FooterContainer1": {},
+    "Form1": {},
+    "HeaderContainer1": {},
+    "Host": {},
+    "Image1": {},
+    "Label1": {},
+    "Label2": {},
+    "Login Screen": {},
+    "MainSectionContainer1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Screen3": {},
+    "ScreenContainer1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "FooterContainer1": 7,
+    "Form1": 0,
+    "HeaderContainer1": 5,
+    "Host": 0,
+    "Image1": 2,
+    "Label1": 3,
+    "Label2": 1,
+    "Login Screen": 3,
+    "MainSectionContainer1": 6,
+    "Screen1": 8,
+    "Screen2": 13,
+    "Screen3": 14,
+    "ScreenContainer1": 4
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0588942,
+    "ControlCount": {
+      "form": 1,
+      "groupContainer": 4,
+      "image": 1,
+      "label": 2,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.3806409
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
