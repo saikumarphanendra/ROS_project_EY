@@ -48,7 +48,7 @@
         Appearance: ='ButtonCanvas.Appearance'.Secondary
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =Navigate(Screen2)
+        OnSelect: =Navigate(Screen3)
         Text: ="Navigate"
         Width: =96
         X: =114
