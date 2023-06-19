@@ -1,25 +1,9 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "FooterContainer1": 14,
-    "Form1": 5,
-    "HeaderContainer1": 12,
-    "Host": 3,
-    "Image1": 15,
-    "Label1": 7,
-    "Label2": 6,
-    "Login Screen": 4,
-    "MainSectionContainer1": 13,
-    "Screen1": 10,
-    "Screen2": 8,
-    "Screen3": 9,
-    "ScreenContainer1": 11
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:59:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -31,60 +15,12 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "form": 0,
-    "groupContainer": 3,
-    "image": 1,
-    "label": 2
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "FooterContainer1": {},
-    "Form1": {},
-    "HeaderContainer1": {},
-    "Host": {},
-    "Image1": {},
-    "Label1": {},
-    "Label2": {},
-    "Login Screen": {},
-    "MainSectionContainer1": {},
-    "Screen1": {},
-    "Screen2": {},
-    "Screen3": {},
-    "ScreenContainer1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "FooterContainer1": 6,
-    "Form1": 0,
-    "HeaderContainer1": 4,
-    "Host": 0,
-    "Image1": 0,
-    "Label1": 2,
-    "Label2": 1,
-    "Login Screen": 0,
-    "MainSectionContainer1": 5,
-    "Screen1": 0,
-    "Screen2": 0,
-    "Screen3": 0,
-    "ScreenContainer1": 3
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0488852,
-    "ControlCount": {
-      "form": 1,
-      "groupContainer": 4,
-      "label": 2,
-      "screen": 4
-    },
-    "DeserializationLoadTime": 0.3982377
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
