@@ -23,16 +23,24 @@
         Y: =138
         ZIndex: =4
 
-    Image1_1 As image:
-        Image: =User().Image
-        X: =1038
-        Y: =387
-        ZIndex: =5
-
     Button1 As button:
         OnSelect: =Navigate(Screen2)
         Text: ="Navigate"
         X: =942
         Y: =310
         ZIndex: =5
+
+    Image1_1 As image:
+        Image: =User().Image
+        X: =1038
+        Y: =387
+        ZIndex: =5
+
+    Label3 As label:
+        Height: =54
+        Text: ="Thabssjc sgcvgsc schhggc scvsccv frustration in peaks infinity"
+        Width: =282
+        X: =321
+        Y: =522
+        ZIndex: =6
 
