@@ -17,3 +17,9 @@
         Y: =60
         ZIndex: =3
 
+    Image1 As image:
+        Image: =User().Image
+        X: =1002
+        Y: =138
+        ZIndex: =4
+

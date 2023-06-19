@@ -3,22 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "FooterContainer1": 13,
-    "Form1": 6,
-    "HeaderContainer1": 11,
+    "FooterContainer1": 14,
+    "Form1": 5,
+    "HeaderContainer1": 12,
     "Host": 3,
-    "Label1": 5,
-    "Label2": 14,
+    "Image1": 15,
+    "Label1": 7,
+    "Label2": 6,
     "Login Screen": 4,
-    "MainSectionContainer1": 12,
-    "Screen1": 9,
-    "Screen2": 7,
-    "Screen3": 8,
-    "ScreenContainer1": 10
+    "MainSectionContainer1": 13,
+    "Screen1": 10,
+    "Screen2": 8,
+    "Screen3": 9,
+    "ScreenContainer1": 11
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:59:06",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:59:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -32,8 +33,9 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "form": 0,
-    "groupContainer": 2,
-    "label": 1
+    "groupContainer": 3,
+    "image": 1,
+    "label": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -41,6 +43,7 @@
     "Form1": {},
     "HeaderContainer1": {},
     "Host": {},
+    "Image1": {},
     "Label1": {},
     "Label2": {},
     "Login Screen": {},
@@ -58,6 +61,7 @@
     "Form1": 0,
     "HeaderContainer1": 4,
     "Host": 0,
+    "Image1": 0,
     "Label1": 2,
     "Label2": 1,
     "Login Screen": 0,
@@ -67,18 +71,20 @@
     "Screen3": 0,
     "ScreenContainer1": 3
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0439265,
+    "AnalysisLoadTime": 0.0488852,
     "ControlCount": {
       "form": 1,
       "groupContainer": 4,
-      "label": 1,
+      "label": 2,
       "screen": 4
     },
-    "DeserializationLoadTime": 0.6723166
+    "DeserializationLoadTime": 0.3982377
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
