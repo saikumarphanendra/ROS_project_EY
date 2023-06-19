@@ -1,2 +1,8 @@
 "'Login Screen' As screen":
 
+    Label1 As label:
+        Text: ="azsxdfcgv bnm"
+        X: =525
+        Y: =225
+        ZIndex: =1
+
