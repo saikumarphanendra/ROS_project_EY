@@ -1,23 +1,9 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "FooterContainer1": 11,
-    "Form1": 13,
-    "HeaderContainer1": 9,
-    "Host": 3,
-    "Label1": 12,
-    "Login Screen": 4,
-    "MainSectionContainer1": 10,
-    "Screen1": 7,
-    "Screen2": 5,
-    "Screen3": 6,
-    "ScreenContainer1": 8
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 17:59:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -29,51 +15,12 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "form": 1,
-    "groupContainer": 2,
-    "label": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "FooterContainer1": {},
-    "Form1": {},
-    "HeaderContainer1": {},
-    "Host": {},
-    "Label1": {},
-    "Login Screen": {},
-    "MainSectionContainer1": {},
-    "Screen1": {},
-    "Screen2": {},
-    "Screen3": {},
-    "ScreenContainer1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "FooterContainer1": 3,
-    "Form1": 0,
-    "HeaderContainer1": 1,
-    "Host": 0,
-    "Label1": 0,
-    "Login Screen": 0,
-    "MainSectionContainer1": 2,
-    "Screen1": 0,
-    "Screen2": 0,
-    "Screen3": 0,
-    "ScreenContainer1": 0
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0122962,
-    "ControlCount": {
-      "groupContainer": 4,
-      "screen": 4
-    },
-    "DeserializationLoadTime": 0.2963317
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
