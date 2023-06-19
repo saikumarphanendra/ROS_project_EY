@@ -29,3 +29,10 @@
         Y: =387
         ZIndex: =5
 
+    Button1 As button:
+        OnSelect: =Navigate(Screen2)
+        Text: ="Navigate"
+        X: =942
+        Y: =310
+        ZIndex: =5
+
