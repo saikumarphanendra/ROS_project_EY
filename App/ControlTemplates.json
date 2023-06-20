@@ -1,4 +1,18 @@
 {
+  "addMedia": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/addMedia",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "addMedia",
+    "OverridableProperties": {},
+    "Version": "2.2.1"
+  },
   "appinfo": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -69,6 +83,20 @@
     "Name": "combobox",
     "OverridableProperties": {},
     "Version": "2.4.0"
+  },
+  "datepicker": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/datepicker",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "datepicker",
+    "OverridableProperties": {},
+    "Version": "2.6.0"
   },
   "form": {
     "CustomGroupControlTemplateName": "",

@@ -1,10 +1,10 @@
 "'Login As Admin' As screen":
 
     Container1 As groupContainer:
-        Height: =447
-        Width: =400
-        X: =449
-        Y: =85
+        Height: =613
+        Width: =396
+        X: =906
+        Y: =57
         ZIndex: =6
 
         TextCanvas1 As Text:
@@ -17,7 +17,7 @@
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =160
             X: =40
-            Y: =40
+            Y: =116
             ZIndex: =3
 
         TextCanvas1_1 As Text:
@@ -30,7 +30,7 @@
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =160
             X: =40
-            Y: =154
+            Y: =232
             ZIndex: =4
 
         Button1_2 As button:
@@ -55,24 +55,25 @@
                     "Super Admin",
                     Navigate('SuperAdmin Dashboard')
                 )
-                )
-            Text: ="Login as Admin"
+                );
+                Set(UserName1, LookUp('Admin Details',Title=usernameInput.Text, Name));
+            Text: ="Login"
             Width: =196
-            X: =102
-            Y: =345
+            X: =100
+            Y: =451
             ZIndex: =5
 
         passwordInput As text:
             Default: =""
             HintText: ="Password"
             X: =40
-            Y: =194
+            Y: =272
             ZIndex: =6
 
         usernameInput As text:
             Default: =""
             HintText: ="Username"
             X: =40
-            Y: =80
+            Y: =156
             ZIndex: =7
 
