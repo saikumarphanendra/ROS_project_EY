@@ -6,6 +6,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 19,
+    "Button1_1": 30,
     "ButtonCanvas1": 16,
     "Component1": 4,
     "FooterContainer1": 27,
@@ -34,10 +35,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 18:53:46",
+  "HeaderLastSavedDateTimeUTC": "06/20/2023 04:30:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "254bd9bc-ca44-4d20-8071-3ec5099afe53": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-7e6c7d2c-f01b-47e1-8a7c-dd9d4bd91f8a\""
+    "254bd9bc-ca44-4d20-8071-3ec5099afe53": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c8e78dc849654de9a3e9f9a204c20578\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -49,6 +50,7 @@
     "c54060c204ae4061b44c5ad98072ead6": 0
   },
   "OrderDataSource": {
+    "Admin": 3,
     "CustomGallerySample": 0,
     "information": 1,
     "New orders": 2
@@ -71,6 +73,7 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
+    "Button1_1": {},
     "ButtonCanvas1": {},
     "Component1": {},
     "FooterContainer1": {},
@@ -117,6 +120,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 18,
+    "Button1_1": 18,
     "ButtonCanvas1": 15,
     "Component1": 1,
     "FooterContainer1": 26,
@@ -149,9 +153,9 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2358154,
+    "AnalysisLoadTime": 0.09644,
     "ControlCount": {
-      "button": 1,
+      "button": 2,
       "c54060c204ae4061b44c5ad98072ead6": 1,
       "form": 1,
       "gallery": 1,
@@ -164,7 +168,7 @@
       "rectangle": 2,
       "screen": 4
     },
-    "DeserializationLoadTime": 1.228846
+    "DeserializationLoadTime": 0.6776393
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

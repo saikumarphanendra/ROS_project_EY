@@ -15,11 +15,19 @@
             "tableName": "7165bb74-a4db-4604-965f-453c0aeac761"
           }
         }
+      },
+      "https://pratiantechnologies226.sharepoint.com/sites/ROS": {
+        "dataSources": {
+          "Admin": {
+            "tableName": "40a28b0f-c407-41d0-9505-d7ed15b9871f"
+          }
+        }
       }
     },
     "dataSources": [
       "information",
-      "New orders"
+      "New orders",
+      "Admin"
     ],
     "dependencies": {},
     "dependents": [],
