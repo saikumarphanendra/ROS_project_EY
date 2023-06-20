@@ -5,7 +5,8 @@
         Height: =93
         Size: =33
         Text: =User().FullName
-        Width: =1366
-        Y: =81
+        Width: =936
+        X: =429
+        Y: =39
         ZIndex: =1
 

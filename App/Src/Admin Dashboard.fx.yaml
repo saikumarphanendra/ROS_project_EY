@@ -2,11 +2,10 @@
 
     Label4 As label:
         FontWeight: =FontWeight.Bold
-        Height: =66
+        Height: =100
         Size: =33
         Text: ="Welcome Admin"
-        Width: =978
-        X: =40
+        Width: =408
         Y: =40
         ZIndex: =1
 
@@ -105,4 +104,10 @@
             X: =146
             Y: =38
             ZIndex: =7
+
+    Label9 As label:
+        Text: =
+        X: =946
+        Y: =40
+        ZIndex: =3
 

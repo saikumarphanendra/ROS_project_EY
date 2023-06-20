@@ -3,8 +3,8 @@
     Container1 As groupContainer:
         Height: =613
         Width: =396
-        X: =480
-        Y: =72
+        X: =906
+        Y: =57
         ZIndex: =6
 
         TextCanvas1 As Text:
@@ -55,7 +55,8 @@
                     "Super Admin",
                     Navigate('SuperAdmin Dashboard')
                 )
-                )
+                );
+                Set(UserName1, LookUp('Admin Details',Title=usernameInput.Text, Name));
             Text: ="Login"
             Width: =196
             X: =100
@@ -83,6 +84,5 @@
             Size: =25
             Text: ="Login As Admin"
             Width: =396
-            Y: =14
             ZIndex: =8
 

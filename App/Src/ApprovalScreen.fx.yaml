@@ -2,7 +2,9 @@ ApprovalScreen As screen:
 
     Form3 As form:
         DataSource: =Employees
+        DefaultMode: =varFormMode
         Height: =630
+        Item: =varItem
         NumberOfColumns: =2
         Width: =1366
         Y: =138
@@ -388,10 +390,10 @@ ApprovalScreen As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(241, 244, 249, 1)
-                Items: =Choices([@Employees].TypeofEmployee)
+                Items: =Choices([@Employees].'Type of Employee')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Employees.TypeofEmployee,DataCardValue20.SearchText)
+                SearchItems: =Choices(Employees.'Type of Employee',DataCardValue20.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -456,10 +458,10 @@ ApprovalScreen As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(241, 244, 249, 1)
-                Items: =Choices([@Employees].TypeofEmployment)
+                Items: =Choices([@Employees].'Type of Employment')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Employees.TypeofEmployment,DataCardValue21.SearchText)
+                SearchItems: =Choices(Employees.'Type of Employment',DataCardValue21.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -774,7 +776,7 @@ ApprovalScreen As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Employees],DataSourceInfo.DisplayName,"EmpId")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =98
             MaxLength: =DataSourceInfo([@Employees], DataSourceInfo.MaxLength, "EmpId")
             Required: =false
             Update: =DataCardValue25.Text
@@ -993,8 +995,42 @@ ApprovalScreen As screen:
         Height: =76
         Size: =30
         Text: ="Employee Details"
-        Width: =1198
+        Width: =618
         X: =117
         Y: =21
         ZIndex: =3
+
+    ButtonCanvas5 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: |-
+            =
+            
+            AddanitemtoSharePointandsendanemail.Run(
+               Notify("Data is submitted successfully");
+            
+            );
+            Navigate('Admin Dashboard');
+        Text: ="Accept"
+        Width: =96
+        X: =936
+        Y: =52
+        ZIndex: =4
+
+    ButtonCanvas6 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        DisplayMode: =DisplayMode.Edit
+        Height: =33
+        Text: ="Reject"
+        Width: =96
+        X: =1114
+        Y: =52
+        ZIndex: =5
+
+    Button2 As button:
+        Text: ="Button"
+        X: =735
+        Y: =57
+        ZIndex: =6
 

@@ -56,7 +56,7 @@
         ZIndex: =7
 
     Button1_1 As button:
-        OnSelect: =If(LookUp(Admin, Username=TextInput1.Text, Password=TextInput2.Text).Department="IT",Navigate(IT_Screen),LookUp(ListName, UserName=TextInput1.Text, Password=TextInput2.Text).Department="HR",Navigate(HR_Screen))
+        OnSelect: =Navigate('Login As Admin')
         Text: ="Login as Admin"
         X: =972
         Y: =616
