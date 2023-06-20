@@ -20,6 +20,15 @@
         "dataSources": {
           "Admin Details": {
             "tableName": "40a28b0f-c407-41d0-9505-d7ed15b9871f"
+          },
+          "ROS Restaurant": {
+            "tableName": "237744e1-3a2c-42b3-9a77-d5736e8414af"
+          },
+          "ROS Restaurants_1": {
+            "tableName": "20638e50-3444-4e47-8f3c-84f32bd2ef7b"
+          },
+          "ROS Restaurants_2": {
+            "tableName": "20638e50-3444-4e47-8f3c-84f32bd2ef7b"
           }
         }
       }
@@ -27,10 +36,35 @@
     "dataSources": [
       "information",
       "New orders",
-      "Admin Details"
+      "Admin Details",
+      "ROS Restaurant",
+      "ROS Restaurants_1",
+      "ROS Restaurants_2"
     ],
     "dependencies": {},
     "dependents": [],
     "id": "254bd9bc-ca44-4d20-8071-3ec5099afe53"
+  },
+  "fffa5d07-bf68-47fb-8be8-88a4bc516c0c": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://pratiantechnologies226.sharepoint.com/sites/ROS": {
+        "dataSources": {
+          "ROS Restaurants": {
+            "tableName": "20638e50-3444-4e47-8f3c-84f32bd2ef7b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ROS Restaurants"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fffa5d07-bf68-47fb-8be8-88a4bc516c0c"
   }
 }

@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 37,
+    "BindingErrorCount": 44,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -115,12 +115,12 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "ROS-Application",
+    "Name": "ROS-App1",
     "OriginatingVersion": "1.332",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "ROS-App",
+    "AppName": "ROS-App1",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -133,8 +133,8 @@
   "ScreenOrder": [
     "Login Screen",
     "Restaurant Manager",
-    "Screen3",
-    "Screen1",
+    "Restaurant form",
+    "Restaurants",
     "Admin Dashboard",
     "SuperAdmin Dashboard",
     "Login As Admin"
