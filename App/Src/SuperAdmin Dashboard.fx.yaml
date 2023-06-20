@@ -2,10 +2,10 @@
 
     Label4_1 As label:
         FontWeight: =FontWeight.Bold
-        Height: =188
+        Height: =93
         Size: =33
-        Text: ="Super Admin"
-        Width: =978
-        Y: =27
+        Text: =User().FullName
+        Width: =1366
+        Y: =81
         ZIndex: =1
 
