@@ -20,6 +20,9 @@
         "dataSources": {
           "Admin Details": {
             "tableName": "40a28b0f-c407-41d0-9505-d7ed15b9871f"
+          },
+          "Employees": {
+            "tableName": "2b422d2b-984e-496a-bcce-bb83b51106dd"
           }
         }
       }
@@ -27,7 +30,8 @@
     "dataSources": [
       "information",
       "New orders",
-      "Admin Details"
+      "Admin Details",
+      "Employees"
     ],
     "dependencies": {},
     "dependents": [],

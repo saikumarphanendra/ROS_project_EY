@@ -2,11 +2,120 @@
 
     Label4 As label:
         FontWeight: =FontWeight.Bold
-        Height: =188
+        Height: =66
         Size: =33
-        Text: =
+        Text: ="Welcome Admin"
         Width: =978
         X: =40
         Y: =40
         ZIndex: =1
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        BorderColor: =RGBA(219, 219, 219, 1)
+        DelayItemLoading: =true
+        Height: =628
+        Items: =Employees
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =104
+        Width: =1366
+        WrapCount: =2
+        Y: =140
+        ZIndex: =2
+
+        Image2 As image:
+            Height: =72
+            Image: =ThisItem.'Emp image'
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =72
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =38
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =175
+            X: =103
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =96
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.'Content approval status'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =191
+            X: =379
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Set(varFormMode,FormMode.View);Set(varItem,ThisItem);Navigate(ApprovalScreen)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator1 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =96
+            ZIndex: =5
+
+        Rectangle1 As rectangle:
+            Height: =Parent.TemplateHeight - Separator1.Height
+            OnSelect: =Select(Parent)
+            Visible: =If(ThisItem.IsSelected, true, false)
+            Width: =4
+            ZIndex: =6
+
+        Label7 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Manager
+            X: =146
+            Y: =38
+            ZIndex: =7
+
+    TextCanvas3 As Text:
+        Alignment: ='TextCanvas.Alignment'.Start
+        As: ='TextCanvas.As'.Span
+        DisplayMode: =DisplayMode.Edit
+        Height: =54
+        Size: =25
+        Text: ="Text" + 
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =252
+        X: =908
+        Y: =140
+        ZIndex: =3
 
