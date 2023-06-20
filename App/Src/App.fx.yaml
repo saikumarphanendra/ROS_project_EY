@@ -1,5 +1,7 @@
 App As appinfo:
     BackEnabled: =false
+    StartScreen: |
+        =If(!IsBlank(Param("ID")) && LookUp('Employees',ID=Value(Param("ID"))).email=User().Email,ApprovalScreen)
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false

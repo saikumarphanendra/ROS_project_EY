@@ -6,7 +6,8 @@
         Size: =33
         Text: ="Welcome Admin"
         Width: =408
-        Y: =40
+        X: =98
+        Y: =10
         ZIndex: =1
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
@@ -100,7 +101,7 @@
 
         Label7 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Manager
+            Text: =ThisItem.DOB
             X: =146
             Y: =38
             ZIndex: =7
