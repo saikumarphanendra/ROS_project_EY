@@ -18,7 +18,7 @@
       },
       "https://pratiantechnologies226.sharepoint.com/sites/ROS": {
         "dataSources": {
-          "Admin": {
+          "Admin Details": {
             "tableName": "40a28b0f-c407-41d0-9505-d7ed15b9871f"
           }
         }
@@ -27,7 +27,7 @@
     "dataSources": [
       "information",
       "New orders",
-      "Admin"
+      "Admin Details"
     ],
     "dependencies": {},
     "dependents": [],

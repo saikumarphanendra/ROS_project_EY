@@ -41,7 +41,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Admin",
+    "Name": "Admin Details",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

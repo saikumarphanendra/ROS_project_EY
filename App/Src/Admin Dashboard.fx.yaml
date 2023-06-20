@@ -1,0 +1,12 @@
+"'Admin Dashboard' As screen":
+
+    Label4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =188
+        Size: =33
+        Text: ="Admin"
+        Width: =978
+        X: =40
+        Y: =40
+        ZIndex: =1
+
