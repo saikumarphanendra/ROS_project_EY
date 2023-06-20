@@ -40,7 +40,7 @@
         Title1 As label:
             Align: =Align.Center
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =38
+            Height: =50
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -49,8 +49,8 @@
             Size: =20
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
-            Width: =175
-            X: =103
+            Width: =205
+            X: =88
             ZIndex: =2
 
         Subtitle1 As label:
@@ -105,17 +105,4 @@
             X: =146
             Y: =38
             ZIndex: =7
-
-    TextCanvas3 As Text:
-        Alignment: ='TextCanvas.Alignment'.Start
-        As: ='TextCanvas.As'.Span
-        DisplayMode: =DisplayMode.Edit
-        Height: =54
-        Size: =25
-        Text: ="Text" + 
-        Weight: ='TextCanvas.Weight'.Regular
-        Width: =252
-        X: =908
-        Y: =140
-        ZIndex: =3
 
